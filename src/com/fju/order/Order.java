@@ -5,7 +5,7 @@ public class Order {
     Delivery delivery;
     int shipFeed;
     public int total () {
-        return (amount + shipFeed);
+         return (amount + shipFeed);
     }
 
     public Order(int amount, Delivery delivery) {
